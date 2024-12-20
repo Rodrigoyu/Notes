@@ -1,9 +1,8 @@
 @extends('layout.main_layout')
 
 @section('content')
-
-
     <h1>Hello World</h1>
     <hr>
-    <h3>aqui esta o valo: {{ $value }}</h3>
+    <h3>page2</h3>
+    <h3>aqui esta o valo: <?= $value ?></h3>
 @endsection
