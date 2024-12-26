@@ -15,7 +15,15 @@ class AuthController extends Controller
         //form validate
         $request->validate(
             [
-                'text_username'=>'required', 'text_password'=>'required'
+                'text_username'=>'required|email', 'text_password'=>'required|min:6|max:16'
+            ],
+            [
+                'text_username.required'=>'Username e obrigadorio',
+                'text_username.email'=>'Email invalido',
+                'text_password.required'=>'O password e obrigadorio',
+                'text_password.min'=>'Minimo de caracteres é :min',
+                'text_password.max'=>'O maximo de caracteres é :max',
+
             ]
         );
 
