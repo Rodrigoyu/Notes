@@ -58,7 +58,7 @@ class AuthController extends Controller
 
         //login user
         session([
-            'user '=>[
+            'user'=>[
                 'id'=>$user->id,
                 'username'=> $user->username
         ]]);
