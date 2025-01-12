@@ -62,8 +62,8 @@ class AuthController extends Controller
                 'id'=>$user->id,
                 'username'=> $user->username
         ]]);
-
-        echo'login com sucesso!';
+        //redirect to home
+        return redirect()->to('/');
   
     }
 

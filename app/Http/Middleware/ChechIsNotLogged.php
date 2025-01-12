@@ -15,6 +15,7 @@ class ChechIsNotLogged
      */
     public function handle(Request $request, Closure $next): Response
     {
+        //check is users not logged
         if(session('user')){
             return redirect('/');
         }
