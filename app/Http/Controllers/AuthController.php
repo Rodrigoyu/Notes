@@ -36,6 +36,7 @@ class AuthController extends Controller
        $password = $request->input('text_password');
        
         $user = User::where('username', $username)->where('deleted_at', null)->first();
+        
         //check if user exist
         if(!$user){
             return redirect()
