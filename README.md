@@ -1,67 +1,50 @@
-# Notes
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+🚀 Projeto CRUD com Laravel e Bootstrap
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Este é um projeto de estudo desenvolvido para aplicar e aprofundar os conhecimentos no framework PHP Laravel, com foco nos conceitos fundamentais de um sistema CRUD (Create, Read, Update, Delete) e na interação com banco de dados.
 
-## About Laravel
+📖 Sobre o Projeto
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+A aplicação consiste em um sistema de gerenciamento simples onde é possível realizar as quatro operações básicas de manipulação de dados. O principal objetivo foi construir uma base sólida no desenvolvimento backend com Laravel, compreendendo seu fluxo de trabalho, arquitetura MVC (Model-View-Controller) e seu poderoso ORM, o Eloquent. A interface foi desenvolvida utilizando o framework front-end Bootstrap para garantir um design limpo e responsivo.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+✨ Funcionalidades
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+    Criar: Adicionar novos registros ao banco de dados através de um formulário.
 
-## Learning Laravel
+    Ler: Listar todos os registros existentes em uma tabela e visualizar os detalhes de um registro específico.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+    Atualizar: Editar as informações de um registro já existente.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+    Excluir: Remover um registro do banco de dados.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+ 🛠️ Tecnologias Utilizadas
 
-## Laravel Sponsors
+As seguintes ferramentas e tecnologias foram utilizadas na construção deste projeto:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+PHP: Linguagem de programação principal.
 
-### Premium Partners
+Laravel: Framework PHP para o desenvolvimento da aplicação.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+MySQL: Sistema de gerenciamento de banco de dados.
 
-## Contributing
+Bootstrap: Framework CSS para estilização e responsividade.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Blade: Motor de templates do Laravel para a criação das views.
 
-## Code of Conduct
+Eloquent ORM: Mapeamento objeto-relacional do Laravel para manipulação do banco de dados.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Composer: Gerenciador de dependências do PHP.
 
-## Security Vulnerabilities
+🧠 Aprendizados
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+O desenvolvimento deste projeto foi uma excelente oportunidade para solidificar diversos conceitos importantes:
 
-## License
+Arquitetura MVC: Compreendi na prática como a separação de responsabilidades entre Model (lógica de dados), View (camada de apresentação) e Controller (lógica da aplicação) torna o código mais organizado, escalável e de fácil manutenção.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+CRUD na Prática: Aprofundei o entendimento sobre o ciclo de vida de uma informação dentro de um sistema, implementando cada uma das quatro operações essenciais (Create, Read, Update, Delete).
+
+Eloquent ORM e Migrations: Aprendi a interagir com o banco de dados de forma abstrata e produtiva usando o Eloquent. Entendi a importância das Migrations para versionar a estrutura do banco de dados, facilitando o trabalho em equipe e o deploy da aplicação.
+
+Roteamento e Validação: Dominei a criação de rotas para mapear as requisições HTTP para os métodos dos controllers. Além disso, implementei as validações de formulário do Laravel para garantir a integridade e a segurança dos dados recebidos.
+
+Integração Front-end e Back-end: Utilizei o motor de templates Blade para renderizar dados dinamicamente nas views e o Bootstrap para criar uma interface de usuário funcional e responsiva de forma ágil.
+
